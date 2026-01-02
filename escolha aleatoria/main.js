@@ -18,7 +18,7 @@ textarea.addEventListener('keyup', (e) => {
 function createTags(input) {
   const tags = input.split(',').filter(tag => tag.trim() !== '').map(tag => tag.trim())
 
-  tagsEl.innerHTML = ''
+  tagsEl.innerHTML = ''//erro "Uncaught TypeError"
 
   tags.forEach(tag => {
     const tagEl = document.createElement('span')
