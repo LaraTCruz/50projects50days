@@ -1,6 +1,6 @@
-const API_URL = 'https://api.themoviedb.org/3/discover/movie?language=pt-BR&sort_by=populary.desc&api_key=c1d8e7fa223dd882f9a8ada8067bdcb6&page=1'
+const API_URL = 'https://api.themoviedb.org/3/discover/movie?language=pt-BR&sort_by=populary.desc&api_key=(SUA API)&page=1'
 const IMG_PATH = 'https://image.tmdb.org/t/p/w1280'
-const SEARCH_API = 'https://api.themoviedb.org/3/search/movie?language=pt-BR&api_key=c1d8e7fa223dd882f9a8ada8067bdcb6&query="'
+const SEARCH_API = 'https://api.themoviedb.org/3/search/movie?language=pt-BR&api_key=(SUA API)&query="'
 
 const main = document.getElementById('main')
 const form = document.getElementById('form')
